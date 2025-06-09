@@ -1,0 +1,28 @@
+{
+  "id": "guy01",
+  "name": "Алекс / Alex",
+  "description": "Очаровательный джентльмен с круиза. / A charming gentleman from the cruise.",
+  "traits": ["romantic", "introverted"],
+  "initial_parameters": {
+    "R": 5,
+    "F": 5,
+    "I": 5,
+    "M": 5
+  },
+  "dilemma_pools": ["romantic_dilemma_pool", "social_dilemma_pool"],
+  "chat_pools": ["intro_chat_pool"],
+  "card_foreground": {
+    "default": "assets/characters/guy01.png",
+    "happy": "assets/characters/guy01_happy.png",
+    "nervous": "assets/characters/guy01_nervous.png"
+  },
+  "collectible": {
+    "image": "assets/characters/guy01_card.png",
+    "description": "Очаровательный джентльмен с круиза. / A charming gentleman from the cruise."
+  },
+  "emotion_state": "default",
+  "emotion_effects": {
+    "happy": {"R": 1, "F": 1},
+    "nervous": {"I": -1, "M": -1}
+  }
+}

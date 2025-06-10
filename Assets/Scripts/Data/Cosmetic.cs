@@ -1,10 +1,9 @@
-using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace Datecraft.Data
 {
     [JsonObject]
-    public class Cosmetic
+    public class CosmeticData
     {
         [JsonProperty("id")]
         public string Id { get; set; }
@@ -12,14 +11,11 @@ namespace Datecraft.Data
         [JsonProperty("name")]
         public string Name { get; set; }
 
-        [JsonProperty("description")]
-        public string Description { get; set; }
+        [JsonProperty("type")]
+        public string Type { get; set; }
 
-        [JsonProperty("cost")]
-        public int Cost { get; set; }
-
-        [JsonProperty("effect")]
-        public Dictionary<string, int> Effect { get; set; }
+        [JsonProperty("image")]
+        public string Image { get; set; }
 
         [JsonProperty("unlock_condition")]
         public UnlockCondition UnlockCondition { get; set; }
@@ -28,7 +24,13 @@ namespace Datecraft.Data
     [JsonObject]
     public class UnlockCondition
     {
-        [JsonProperty("collectible_npcs")]
-        public List<string> CollectibleNpcs { get; set; }
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("parameter")]
+        public string Parameter { get; set; }
+
+        [JsonProperty("threshold")]
+        public int Threshold { get; set; }
     }
 }

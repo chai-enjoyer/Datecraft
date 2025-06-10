@@ -1,0 +1,34 @@
+{
+    "id": "card001",
+    "type": "dilemma",
+    "pool": "romantic_dilemma_pool",
+    "text": "Алекс предлагает прогуляться по палубе под звездами. / Alex suggests a walk on the deck under the stars.",
+    "image": "assets/cards/card001.png",
+    "choices": [
+        {
+            "text": "Согласиться / Agree",
+            "effects": {
+                "R": 1,
+                "F": 1
+            },
+            "responses": [
+                {
+                    "emotion": "happy",
+                    "text": "Алекс улыбается, и вы наслаждаетесь вечером. / Alex smiles, and you enjoy the evening."
+                }
+            ]
+        },
+        {
+            "text": "Отказаться / Decline",
+            "effects": {
+                "R": -1
+            },
+            "responses": [
+                {
+                    "emotion": "nervous",
+                    "text": "Алекс выглядит разочарованным. / Alex looks disappointed."
+                }
+            ]
+        }
+    ]
+}

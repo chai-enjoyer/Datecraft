@@ -1,7 +1,7 @@
 {
   "id": "guy01",
   "name": "Алекс / Alex",
-  "description": "Очаровательный джентльмен с круиза. / A charming gentleman from the cruise.",
+  "description": "Очаровательный юнтельмен / A charming gentleman from the cruise.",
   "traits": ["romantic", "introverted"],
   "initial_parameters": {
     "R": 5,

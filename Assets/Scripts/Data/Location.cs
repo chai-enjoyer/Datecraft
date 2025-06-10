@@ -15,7 +15,10 @@ namespace Datecraft.Data
         [JsonProperty("description")]
         public string Description { get; set; }
 
-        [JsonProperty("sub_locations")]
-        public List<SubLocation> SubLocations { get; set; }
+        [JsonProperty("image")]
+        public string Image { get; set; }
+
+        [JsonProperty("sublocations")]
+        public List<SubLocation> Sublocations { get; set; }
     }
 }

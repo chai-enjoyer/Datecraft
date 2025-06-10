@@ -1,0 +1,12 @@
+{
+    "success_thresholds": [
+        {
+            "parameter": "R",
+            "value": 20
+        },
+        {
+            "parameter": "F",
+            "value": 15
+        }
+    ]
+}

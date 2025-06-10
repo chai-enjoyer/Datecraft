@@ -1,0 +1,20 @@
+{
+    "id": "cruise_liner",
+    "name": "Круизный лайнер / Cruise Liner",
+    "description": "Роскошный корабль, плывущий по океану. / A luxurious ship sailing the ocean.",
+    "image": "assets/locations/cruise_liner.png",
+    "sublocations": [
+        {
+            "id": "deck",
+            "name": "Палуба / Deck",
+            "description": "Открытая палуба с видом на море. / Open deck with a sea view.",
+            "image": "assets/locations/deck.png"
+        },
+        {
+            "id": "restaurant",
+            "name": "Ресторан / Restaurant",
+            "description": "Элегантный ресторан на борту. / Elegant restaurant on board.",
+            "image": "assets/locations/restaurant.png"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "cosmetic001",
+  "name": "Звездная шляпа / Starry Hat",
+  "type": "hat",
+  "image": "assets/cosmetics/starry_hat.png",
+  "unlock_condition": {
+    "type": "parameter",
+    "parameter": "R",
+    "threshold": 10
+  }
+}

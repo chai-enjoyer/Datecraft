@@ -1,5 +1,4 @@
 using Newtonsoft.Json;
-using System.Collections.Generic;
 
 namespace Datecraft.Data
 {
@@ -15,13 +14,7 @@ namespace Datecraft.Data
         [JsonProperty("description")]
         public string Description { get; set; }
 
-        [JsonProperty("background_image")]
-        public string BackgroundImage { get; set; }
-
-        [JsonProperty("possible_npcs")]
-        public List<string> PossibleNpcs { get; set; }
-
-        [JsonProperty("event_tags")]
-        public List<string> EventTags { get; set; }
+        [JsonProperty("image")]
+        public string Image { get; set; }
     }
 }
